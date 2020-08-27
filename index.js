@@ -8,8 +8,8 @@ if ('serviceWorker' in navigator) {
         });
 }
 
-document.getElementsByClassName('click-me').onclick = function() {
+document.getElementsByClassName('click-me').addEventListener('click', function () {
     alert('hello');
-};
+});
 
 // window.location.href = "www.google.com";
