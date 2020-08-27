@@ -9,7 +9,7 @@ if ('serviceWorker' in navigator) {
 }
 
 document.getElementById('click-me').addEventListener('click', function () {
-    console.log("You finally clicked without jQuery");
+    alert("You finally clicked without jQuery");
 });
 
 // window.location.href = "www.google.com";
