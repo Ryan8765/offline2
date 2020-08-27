@@ -9,4 +9,4 @@ if ('serviceWorker' in navigator) {
 }
 
 
-window.location.href = "www.google.com";
+// window.location.href = "www.google.com";
