@@ -8,5 +8,6 @@ if ('serviceWorker' in navigator) {
         });
 }
 
+alert('hello');
 
 // window.location.href = "www.google.com";
