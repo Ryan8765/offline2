@@ -1,6 +1,5 @@
 var CACHE_NAME = 'static-cache';
 var urlsToCache = [
-    '.',
     'index.html',
     'index.js'
 ];
@@ -12,6 +11,8 @@ self.addEventListener('install', function (event) {
             })
     );
 });
+
+
 
 self.addEventListener('fetch', function (event) {
     event.respondWith(
